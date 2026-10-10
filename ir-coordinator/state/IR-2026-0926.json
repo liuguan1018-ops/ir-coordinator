@@ -1,0 +1,118 @@
+{
+  "caseId": "IR-2026-0926",
+  "customer": "中船动力",
+  "eventType": "勒索",
+  "customerType": "t2000-with-product",
+  "description": "待补充",
+  "team": {
+    "sales": "何明璐",
+    "presales": "顾书嘉",
+    "service": "",
+    "support": ""
+  },
+  "currentPhase": 0,
+  "phaseStartTime": "2026-09-26T16:37:00",
+  "tasks": {
+    "0": {
+      "sales": [
+        {"text": "确认事件类型（银狐/勒索/入侵/通报），初步定性", "done": true, "notes": "勒索，已定性"},
+        {"text": "确认客户背景分类（有/无我司产品、T2000/非T2000）", "done": true, "notes": "T2000+有我司产品"},
+        {"text": "判断支撑方式：T2000→现场；非T2000→远程(需审批)", "done": false, "notes": ""},
+        {"text": "组建四位一体应急小组：销售+售前+安服+售后", "done": false, "notes": "销售何明璐✓ 售前顾书嘉✓ 安服待定 售后待定"},
+        {"text": "向高层汇报，预备调动资源", "done": false, "notes": ""}
+      ],
+      "presales": [
+        {"text": "根据事件类型，准备初步解决方案思路", "done": false, "notes": ""},
+        {"text": "协调安服、售后、产品线资源", "done": false, "notes": ""},
+        {"text": "拉通二线及应急响应中心后端支持", "done": false, "notes": ""}
+      ],
+      "service": [
+        {"text": "准备远程取证工具，准备样本分析环境", "done": false, "notes": ""}
+      ],
+      "support": [
+        {"text": "提交工单平台应急响应案件", "done": false, "notes": ""},
+        {"text": "准备DS/TrustOne等部署工具包", "done": false, "notes": ""}
+      ]
+    },
+    "1": {
+      "sales": [
+        {"text": "与客户保持电话连接，做客户主心骨", "done": false, "notes": ""},
+        {"text": "获取远程环境信息，让技术提前介入分析", "done": false, "notes": ""},
+        {"text": "了解客户内部重视程度、现场友商情况", "done": false, "notes": ""},
+        {"text": "绝对不在初始阶段下结论性语言！", "done": false, "notes": ""},
+        {"text": "话术参考：领导我们正在赶过来的路上，到了现场全面分析", "done": false, "notes": ""}
+      ],
+      "presales": [
+        {"text": "根据事件类型准备针对性加固方案", "done": false, "notes": ""},
+        {"text": "与后端沟通可能涉及的情况：产品是否失效/被卸载/样本分析", "done": false, "notes": ""}
+      ],
+      "service": [
+        {"text": "远程获取可疑样本文件", "done": false, "notes": ""},
+        {"text": "捕获恶意样本，交后端同步分析", "done": false, "notes": ""}
+      ],
+      "support": [
+        {"text": "准备TrustOne/DS等部署工具和安装包", "done": false, "notes": ""},
+        {"text": "确认客户现有产品部署情况", "done": false, "notes": ""}
+      ]
+    },
+    "2": {
+      "sales": [
+        {"text": "建立飞书内部沟通群 + 微信客户沟通群", "done": false, "notes": ""},
+        {"text": "做只进不出的貔貅：信息全部向内索取，不单独对外说", "done": false, "notes": ""},
+        {"text": "阶段性成果必须内部讨论后统一对外汇报", "done": false, "notes": ""},
+        {"text": "确保产品病毒库等能力已更新后再对外汇报", "done": false, "notes": ""},
+        {"text": "收集友商情报，关注客户态度及重视程度", "done": false, "notes": ""}
+      ],
+      "presales": [
+        {"text": "将安服溯源进度+售后部署进度同步给销售", "done": false, "notes": ""},
+        {"text": "分析友商应急情况，指导销售沟通策略", "done": false, "notes": ""},
+        {"text": "准备针对性整改方案（基于事件类型）", "done": false, "notes": ""}
+      ],
+      "service": [
+        {"text": "争取第一时间分析出事电脑/主机", "done": false, "notes": ""},
+        {"text": "提取防火墙/日志审计异常外联记录", "done": false, "notes": ""},
+        {"text": "排查弱口令/异常远程服务/可疑启动项/计划任务", "done": false, "notes": ""},
+        {"text": "形成完整攻击路径判断，提交溯源报告", "done": false, "notes": ""}
+      ],
+      "support": [
+        {"text": "推动TrustOne/DS快速上线，覆盖受影响终端+同网段+关键服务器", "done": false, "notes": ""},
+        {"text": "处理安装失败/驱动冲突/权限/兼容问题", "done": false, "notes": ""},
+        {"text": "可查杀的统一下发处置策略，批量清理隔离", "done": false, "notes": ""},
+        {"text": "无法识别的样本联动后端，推动云端病毒码补充", "done": false, "notes": ""},
+        {"text": "已确认样本Hash加入本地情报库，即时阻断", "done": false, "notes": ""}
+      ]
+    },
+    "3": {
+      "sales": [
+        {"text": "成为最终向CIO汇报的那个团队！", "done": false, "notes": ""},
+        {"text": "汇报内容：支撑最快+溯源最专业+方案最综合", "done": false, "notes": ""},
+        {"text": "汇报中引导方向至我司擅长方案", "done": false, "notes": ""}
+      ],
+      "presales": [
+        {"text": "勒索：DS + 虚拟补丁 + 微隔离 + TDA回连 + AI XDR", "done": false, "notes": ""}
+      ]
+    },
+    "4": {
+      "sales": [
+        {"text": "建立应急项目转化表，定期review", "done": false, "notes": ""},
+        {"text": "3个月内必须有真实PPL，否则不再支持此客户", "done": false, "notes": ""},
+        {"text": "利用针对性整改方案协助客户调研/立项/招投标", "done": false, "notes": ""},
+        {"text": "持续跟进客户，跟踪产品后期效果", "done": false, "notes": ""}
+      ],
+      "presales": [
+        {"text": "基于事件薄弱点输出1+2+N加固方案", "done": false, "notes": ""},
+        {"text": "协助客户安全建设规划立项", "done": false, "notes": ""}
+      ]
+    }
+  },
+  "stakeholders": {
+    "customerContact": {"name": "", "status": "pending"},
+    "customerExec": {"name": "", "status": "pending"},
+    "vendor": {"name": "", "status": "pending"},
+    "backend": {"name": "", "status": "pending"},
+    "channel": {"name": "", "status": "pending"}
+  },
+  "log": [
+    {"time": "2026-09-26T16:37:33", "actor": "system", "action": "创建案件", "msg": "IR-2026-0926 | 中船动力 | 勒索 | T2000+有产品 | 销售何明璐 售前顾书嘉"}
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "cases": [
+    {"id": "IR-2026-0926", "customer": "中船动力", "eventType": "勒索", "status": "active", "createdAt": "2026-09-26"}
+  ]
+}
